@@ -1,0 +1,33 @@
+.alertPic img {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  top: 0;
+}
+.loading {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: white;
+  z-index: 1000;
+  -webkit-transition: 0.5s ease 0s;
+}
+.fire1 {
+  width: 100%;
+  height: auto;
+}
+.m_prog {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  width: 100px;
+  height: 20px;
+  font-size: 12px;
+  margin-left: -15px;
+  color: black;
+  z-index: 20;
+}
